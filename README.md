@@ -1,31 +1,97 @@
 # calculo-actuarial-2
 Flores carretero lino misael 
-calculo-actuarial-ii-apellido-nombre/
+ calculo-actuarial-ii-unidad-i/
 │
-├── README.md
-├── requirements.txt
-├── .gitignore
+├── 1. Fundamentos actuariales
+│   ├── Incertidumbre, tiempo y dinero
+│   ├── Obligaciones actuariales
+│   └── Variables aleatorias actuariales
 │
-├── data/
-│   ├── README.md
-│   ├── raw/              → Datos originales
-│   └── processed/        → Datos procesados
+├── 2. Entorno computacional
+│   ├── GitHub
+│   ├── Git
+│   ├── Python
+│   ├── Visual Studio Code
+│   └── Repositorio reproducible
 │
-├── notebooks/
-│   └── 01_probabilidad_actuarial.ipynb
-│                           → Ejercicios y análisis
+├── 3. Python para modelar riesgo
+│   ├── Variables y tipos numéricos
+│   ├── Funciones
+│   ├── NumPy
+│   ├── Pandas
+│   ├── Matplotlib
+│   ├── SciPy
+│   └── Semillas y reproducibilidad
 │
-├── src/
-│   ├── __init__.py
-│   └── probability.py     → Funciones reutilizables
+├── 4. Lenguaje de probabilidad
+│   ├── Experimentos y resultados
+│   ├── Espacio muestral
+│   ├── Eventos
+│   ├── Probabilidad condicional
+│   ├── Probabilidad total
+│   ├── Teorema de Bayes
+│   └── Independencia
 │
-├── tests/
-│   └── test_probability.py
-│                           → Pruebas del código
+├── 5. Variables aleatorias
+│   ├── Variables discretas
+│   ├── Variables continuas
+│   ├── Función de distribución
+│   └── Variables indicadoras
 │
-├── figures/                → Gráficas
-├── reports/                → Resultados finales
+├── 6. Medidas de riesgo
+│   ├── Esperanza
+│   ├── Varianza
+│   ├── Covarianza
+│   ├── Dependencia
+│   └── Cuantiles
 │
-└── .github/
-    └── workflows/
-        └── tests.yml      → Automatización de pruebas
+├── 7. Distribuciones de probabilidad
+│   ├── Bernoulli
+│   ├── Binomial
+│   ├── Poisson
+│   ├── Geométrica
+│   ├── Exponencial
+│   ├── Gamma
+│   └── Normal
+│
+├── 8. Modelos actuariales
+│   ├── Frecuencia de siniestros
+│   ├── Severidad
+│   ├── Deducibles
+│   ├── Límites
+│   └── Costo agregado
+│
+├── 9. Simulación y análisis
+│   ├── Ley de los grandes números
+│   ├── Simulación de riesgos
+│   └── Visualización de distribuciones
+│
+├── 10. Datos mexicanos
+│   ├── Estadísticas oficiales
+│   ├── Defunciones
+│   ├── Tasas
+│   └── Probabilidades actuariales
+│
+├── 11. Repositorio reproducible
+│   ├── data/
+│   │   ├── raw/          → Datos originales
+│   │   └── processed/    → Datos procesados
+│   ├── notebooks/        → Análisis
+│   ├── src/              → Funciones
+│   ├── tests/            → Pruebas
+│   ├── figures/          → Gráficas
+│   └── reports/          → Resultados
+│
+├── 12. Errores conceptuales
+│   ├── Densidad ≠ probabilidad
+│   ├── Tasa ≠ probabilidad individual
+│   ├── No asumir independencia
+│   ├── No editar datos crudos
+│   └── No subir información sensible
+│
+└── 13. Entrega de la unidad
+    ├── Repositorio de GitHub
+    ├── Notebook de probabilidad
+    ├── Datos mexicanos
+    ├── Pruebas automáticas
+    └── Proyecto reproducible
