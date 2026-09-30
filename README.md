@@ -1,97 +1,104 @@
-# calculo-actuarial-2
-Flores carretero lino misael 
- calculo-actuarial-ii-unidad-i/
-│
-├── 1. Fundamentos actuariales
-│   ├── Incertidumbre, tiempo y dinero
-│   ├── Obligaciones actuariales
-│   └── Variables aleatorias actuariales
-│
-├── 2. Entorno computacional
-│   ├── GitHub
-│   ├── Git
-│   ├── Python
-│   ├── Visual Studio Code
-│   └── Repositorio reproducible
-│
-├── 3. Python para modelar riesgo
-│   ├── Variables y tipos numéricos
-│   ├── Funciones
-│   ├── NumPy
-│   ├── Pandas
-│   ├── Matplotlib
-│   ├── SciPy
-│   └── Semillas y reproducibilidad
-│
-├── 4. Lenguaje de probabilidad
-│   ├── Experimentos y resultados
-│   ├── Espacio muestral
-│   ├── Eventos
-│   ├── Probabilidad condicional
-│   ├── Probabilidad total
-│   ├── Teorema de Bayes
-│   └── Independencia
-│
-├── 5. Variables aleatorias
-│   ├── Variables discretas
-│   ├── Variables continuas
-│   ├── Función de distribución
-│   └── Variables indicadoras
-│
-├── 6. Medidas de riesgo
-│   ├── Esperanza
-│   ├── Varianza
-│   ├── Covarianza
-│   ├── Dependencia
-│   └── Cuantiles
-│
-├── 7. Distribuciones de probabilidad
-│   ├── Bernoulli
-│   ├── Binomial
-│   ├── Poisson
-│   ├── Geométrica
-│   ├── Exponencial
-│   ├── Gamma
-│   └── Normal
-│
-├── 8. Modelos actuariales
-│   ├── Frecuencia de siniestros
-│   ├── Severidad
-│   ├── Deducibles
-│   ├── Límites
-│   └── Costo agregado
-│
-├── 9. Simulación y análisis
-│   ├── Ley de los grandes números
-│   ├── Simulación de riesgos
-│   └── Visualización de distribuciones
-│
-├── 10. Datos mexicanos
-│   ├── Estadísticas oficiales
-│   ├── Defunciones
-│   ├── Tasas
-│   └── Probabilidades actuariales
-│
-├── 11. Repositorio reproducible
-│   ├── data/
-│   │   ├── raw/          → Datos originales
-│   │   └── processed/    → Datos procesados
-│   ├── notebooks/        → Análisis
-│   ├── src/              → Funciones
-│   ├── tests/            → Pruebas
-│   ├── figures/          → Gráficas
-│   └── reports/          → Resultados
-│
-├── 12. Errores conceptuales
-│   ├── Densidad ≠ probabilidad
-│   ├── Tasa ≠ probabilidad individual
-│   ├── No asumir independencia
-│   ├── No editar datos crudos
-│   └── No subir información sensible
-│
-└── 13. Entrega de la unidad
-    ├── Repositorio de GitHub
-    ├── Notebook de probabilidad
-    ├── Datos mexicanos
-    ├── Pruebas automáticas
-    └── Proyecto reproducible
+CALCULO ACTUARIAL II - UNIDAD I
+FLORES CARRETERO LINO MISAEL
+
+1. FUNDAMENTOS ACTUARIALES
+|
+|-- Incertidumbre, tiempo y dinero
+|-- Obligaciones actuariales
+`-- Variables aleatorias actuariales
+
+2. ENTORNO COMPUTACIONAL
+|
+|-- GitHub
+|-- Git
+|-- Python
+|-- Visual Studio Code
+`-- Repositorio reproducible
+
+3. PYTHON PARA MODELAR RIESGO
+|
+|-- Variables y tipos numericos
+|-- Funciones
+|-- NumPy
+|-- Pandas
+|-- Matplotlib
+|-- SciPy
+`-- Semillas y reproducibilidad
+
+4. LENGUAJE DE PROBABILIDAD
+|
+|-- Experimentos y resultados
+|-- Espacio muestral
+|-- Eventos
+|-- Probabilidad condicional
+|-- Ley de probabilidad total
+|-- Teorema de Bayes
+`-- Independencia
+
+5. VARIABLES ALEATORIAS
+|
+|-- Definicion
+|-- Variables discretas
+|-- Variables continuas
+|-- Funcion de distribucion
+`-- Variables indicadoras
+
+6. ESPERANZA, VARIANZA Y DEPENDENCIA
+|
+|-- Esperanza
+|-- Varianza
+|-- Covarianza
+|-- Dependencia
+`-- Esperanza y varianza condicional
+
+7. CUANTILES Y TRANSFORMACIONES DE PERDIDAS
+|
+|-- Cuantiles
+|-- Deducibles
+`-- Limites
+
+8. DISTRIBUCIONES DISCRETAS
+|
+|-- Bernoulli
+|-- Binomial
+|-- Poisson
+`-- Geometrica
+
+9. DISTRIBUCIONES CONTINUAS
+|
+|-- Uniforme
+|-- Exponencial
+|-- Gamma
+`-- Normal
+
+10. RIESGO AGREGADO Y SIMULACION
+|
+|-- Suma de perdidas
+|-- Modelo colectivo
+|-- Ley de los grandes numeros
+`-- Simulacion
+
+11. DATOS ACTUARIALES DE MEXICO
+|
+|-- Estadisticas oficiales
+|-- Defunciones
+|-- Tasas
+`-- Probabilidades actuariales
+
+12. ESTRUCTURA DEL REPOSITORIO
+|
+|-- README.md
+|-- requirements.txt
+|-- .gitignore
+|-- data/
+|   |-- README.md
+|   |-- raw/
+|   `-- processed/
+|-- notebooks/
+|-- src/
+|-- tests/
+|-- figures/
+|-- reports/
+`-- .github/
+    `-- workflows/
+        `-- tests.yml
